@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,:after,:before {
   margin:0;
   padding:0;
@@ -5,6 +6,15 @@
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
   box-sizing:border-box
+}
+html {
+  font:100%/1.5 Roboto,Verdana,sans-serif;
+  color:#34495e;
+  background-color:#fff;
+  -webkit-font-smoothing:antialiased;
+  width:100%;
+  overflow:hidden-x;
+  text-align:center
 }
 button,input,select,textarea {
   -webkit-appearance:none;
@@ -20,40 +30,6 @@ h1, h2 {
 }
 h1 {
   font-size:10rem;
-}
-@media (min-width:650px) {
-  .mega {
-    font-size:6rem;
-    line-height:1
-  }
-}
-.meta,.subhead {
-  color:#7b8993
-}
-.promo {
-  text-align:center
-}
-.wrap {
-  max-width:38rem;
-  margin:0 auto
-}
-.island {
-  padding:1.5rem
-}
-.isle {
-  padding:.75rem
-}
-.spit {
-  padding:.375rem
-}
-html {
-  font:100%/1.5 Roboto,Verdana,sans-serif;
-  color:#34495e;
-  background-color:#fff;
-  -webkit-font-smoothing:antialiased;
-  width:100%;
-  overflow:hidden-x;
-  text-align:center
 }
 @media (min-width:650px) {
   html {
@@ -106,8 +82,6 @@ html {
   font-weight:700;
   src:local('Roboto Bold Italic'),local('Roboto-BoldItalic'),url(http://themes.googleusercontent.com/static/fonts/roboto/v11/t6Nd4cfPRhZP44Q5QAjcC4bN6UDyHWBl620a-IRfuBk.woff) format('woff')
 }
-@charset "UTF-8";
-
 @-webkit-keyframes fadeInUp {
     from {
         zoom:1;
@@ -288,7 +262,6 @@ html {
         transform:translateY(0)
     }
 }
-
 .animate {
     -webkit-animation-name:fadeInDown;
     -moz-animation-name:fadeInDown;

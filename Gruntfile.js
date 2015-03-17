@@ -24,6 +24,7 @@ module.exports = function(grunt) {
           dest: ''
       }
     },
+    clean: ['styles/main.css', 'styles/cards.css'],
     concat: {
         main:{
           files:[
@@ -74,5 +75,5 @@ module.exports = function(grunt) {
 
   // Load all Grunt tasks
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-  grunt.registerTask('default', ['copy', 'concat', 'uglify', 'cssmin', 'autoprefixer', 'usemin', 'htmlmin']);
+  grunt.registerTask('default', ['copy', 'concat', 'uglify', 'cssmin', 'autoprefixer', 'usemin', 'htmlmin', 'clean']);
 };

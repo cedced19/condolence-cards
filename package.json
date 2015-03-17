@@ -6,10 +6,11 @@
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "^2.0.0",
     "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-copy": "~0.7.0",
-    "grunt-contrib-cssmin": "^0.10.0",
-    "grunt-contrib-htmlmin": "^0.3.0",
-    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-uglify": "^0.8.0",
     "grunt-usemin": ">=3.0.0",
     "matchdep": "~0.3.0",
     "time-grunt": "^1.0.0"
@@ -19,5 +20,8 @@
     "email": "cedced19@gmail.com",
     "url": "https://github.com/cedced19/condolence-cards"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "grunt-contrib-clean": "^0.6.0"
+  }
 }
