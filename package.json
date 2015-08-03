@@ -17,8 +17,5 @@
         "email": "cedced19@gmail.com",
         "url": "https://github.com/cedced19/condolence-cards"
     },
-    "license": "MIT",
-    "dependencies": {
-        "grunt-contrib-clean": "^0.6.0"
-    }
+    "license": "MIT"
 }
